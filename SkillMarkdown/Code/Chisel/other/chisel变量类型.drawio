@@ -1,0 +1,112 @@
+<mxfile host="Electron" modified="2024-06-24T03:05:42.801Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Nbvtlw2alw0Bfn6wq2Pb" version="24.2.5" type="device">
+  <diagram name="第 1 页" id="_qG186nEKhW2wkanjCZE">
+    <mxGraphModel dx="3251" dy="1392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-1" value="位宽" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="690" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-2" value="&lt;div style=&quot;font-size: 22px;&quot;&gt;&lt;br style=&quot;font-size: 22px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 22px;&quot;&gt;有符号，无符号&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="343" y="385" width="153" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=22;" parent="1" source="oo9ZUfYBwvSOAuaUVDd_-3" target="oo9ZUfYBwvSOAuaUVDd_-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="335" />
+              <mxPoint x="750" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=22;" parent="1" source="oo9ZUfYBwvSOAuaUVDd_-3" target="oo9ZUfYBwvSOAuaUVDd_-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="335" />
+              <mxPoint x="410" y="335" />
+              <mxPoint x="410" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=22;" parent="1" source="oo9ZUfYBwvSOAuaUVDd_-3" target="oo9ZUfYBwvSOAuaUVDd_-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="315" />
+              <mxPoint x="600" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-3" value="常量属性&lt;br style=&quot;font-size: 22px;&quot;&gt;eg:val constat = 12.U(5.W)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="480" y="210" width="243" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-6" value="有符号/无符号" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="-467" y="740" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-7" value="位宽" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="-57" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" parent="1" source="oo9ZUfYBwvSOAuaUVDd_-10" target="oo9ZUfYBwvSOAuaUVDd_-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" parent="1" source="oo9ZUfYBwvSOAuaUVDd_-10" target="oo9ZUfYBwvSOAuaUVDd_-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-10" value="普通变量属性&lt;br style=&quot;font-size: 22px;&quot;&gt;eg:veriable=UInt(5.W)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="-727" y="610" width="970" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-11" value="值" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="540" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-13" value="输入输出属性&lt;br style=&quot;font-size: 22px;&quot;&gt;Input(),Output" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="123" y="465" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=22;" parent="1" source="oo9ZUfYBwvSOAuaUVDd_-14" target="oo9ZUfYBwvSOAuaUVDd_-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" parent="1" source="oo9ZUfYBwvSOAuaUVDd_-14" target="oo9ZUfYBwvSOAuaUVDd_-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-14" value="接口变量&lt;br style=&quot;font-size: 22px;&quot;&gt;eg:io_variable=Input( UInt(5.W)&amp;nbsp;)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="-57" y="305" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-17" value="Wire类型&lt;div style=&quot;font-size: 22px;&quot;&gt;Wire()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="-457" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=22;" parent="1" source="oo9ZUfYBwvSOAuaUVDd_-18" target="oo9ZUfYBwvSOAuaUVDd_-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" parent="1" source="oo9ZUfYBwvSOAuaUVDd_-18" target="oo9ZUfYBwvSOAuaUVDd_-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-18" value="Wire变量&lt;br style=&quot;font-size: 22px;&quot;&gt;eg:wire_variable=Wire( UInt(5.W) )" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="-417" y="300" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" parent="1" source="oo9ZUfYBwvSOAuaUVDd_-22" target="oo9ZUfYBwvSOAuaUVDd_-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" parent="1" source="oo9ZUfYBwvSOAuaUVDd_-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-557" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-22" value="Reg变量&lt;br style=&quot;font-size: 22px;&quot;&gt;eg:reg_veraible = Reg ( UInt(5.W)&amp;nbsp;)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="-827" y="305" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-23" value="Reg类型&lt;div style=&quot;font-size: 22px;&quot;&gt;Reg()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="-797" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" parent="1" source="oo9ZUfYBwvSOAuaUVDd_-53" target="oo9ZUfYBwvSOAuaUVDd_-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" parent="1" source="oo9ZUfYBwvSOAuaUVDd_-53" target="oo9ZUfYBwvSOAuaUVDd_-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" parent="1" source="oo9ZUfYBwvSOAuaUVDd_-53" target="oo9ZUfYBwvSOAuaUVDd_-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oo9ZUfYBwvSOAuaUVDd_-53" value="变量" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="-717" y="180" width="970" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

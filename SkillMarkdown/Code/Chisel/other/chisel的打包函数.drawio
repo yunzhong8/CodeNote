@@ -1,0 +1,61 @@
+<mxfile host="Electron" modified="2024-06-24T03:02:20.084Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="ky_f5hp6mJMxhMjX5QMg" version="24.2.5" type="device">
+  <diagram name="第 1 页" id="cHk5rsKtnCbfOPjptP0P">
+    <mxGraphModel dx="4078" dy="223" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iSDN6EzPu5hyAhHvwj_a-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iSDN6EzPu5hyAhHvwj_a-3" target="iSDN6EzPu5hyAhHvwj_a-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iSDN6EzPu5hyAhHvwj_a-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iSDN6EzPu5hyAhHvwj_a-3" target="iSDN6EzPu5hyAhHvwj_a-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iSDN6EzPu5hyAhHvwj_a-3" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Bundle可以打包的变量类型&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="1790" width="770" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iSDN6EzPu5hyAhHvwj_a-4" value="接口变量&lt;br style=&quot;font-size: 24px;&quot;&gt;eg:io_variable=Input( UInt(5.W)&amp;nbsp;)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="1950" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iSDN6EzPu5hyAhHvwj_a-5" value="普通变量属性&lt;br style=&quot;font-size: 24px;&quot;&gt;eg:veriable=UInt(5.W)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="1950" width="230" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="iSDN6EzPu5hyAhHvwj_a-7" value="bundle打包的变量&lt;br style=&quot;font-size: 24px;&quot;&gt;class xxBundle extends Bundle{&lt;br style=&quot;font-size: 24px;&quot;&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="1956" width="280" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="iSDN6EzPu5hyAhHvwj_a-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;" edge="1" parent="1" source="iSDN6EzPu5hyAhHvwj_a-10" target="iSDN6EzPu5hyAhHvwj_a-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iSDN6EzPu5hyAhHvwj_a-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;" edge="1" parent="1" source="iSDN6EzPu5hyAhHvwj_a-10" target="iSDN6EzPu5hyAhHvwj_a-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iSDN6EzPu5hyAhHvwj_a-10" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;打包函数有那些&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-1290" y="1574" width="245" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iSDN6EzPu5hyAhHvwj_a-11" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Bundle&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="1444" width="245" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iSDN6EzPu5hyAhHvwj_a-12" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Valid&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="1594" width="245" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iSDN6EzPu5hyAhHvwj_a-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" edge="1" parent="1" source="iSDN6EzPu5hyAhHvwj_a-15" target="iSDN6EzPu5hyAhHvwj_a-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iSDN6EzPu5hyAhHvwj_a-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;" edge="1" parent="1" source="iSDN6EzPu5hyAhHvwj_a-15" target="iSDN6EzPu5hyAhHvwj_a-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iSDN6EzPu5hyAhHvwj_a-15" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;valid可以打包的变量类型&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-1300" y="2160" width="770" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iSDN6EzPu5hyAhHvwj_a-16" value="普通变量属性&lt;br style=&quot;font-size: 24px;&quot;&gt;eg:veriable=UInt(5.W)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-1240" y="2360" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="iSDN6EzPu5hyAhHvwj_a-17" value="多个普通变量被bundle打包成一个整体的变量" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="2360" width="280" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="iSDN6EzPu5hyAhHvwj_a-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.475;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iSDN6EzPu5hyAhHvwj_a-3" target="iSDN6EzPu5hyAhHvwj_a-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
